@@ -2,6 +2,8 @@
 
 Este proyecto permite gestionar e iniciar varios bots de Discord que se encuentran en rutas diferentes utilizando Node.js y un script para automatizar su inicio.
 
+Implementación de múltiples bots de Discord en un solo servidor, permitiendo la gestión simultánea de hasta tres bots
+
 ## Requisitos
 
 - **Node.js**: Asegúrate de tener instalado Node.js en tu sistema. Si no lo tienes, puedes descargarlo desde [aquí](https://nodejs.org/).
