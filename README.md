@@ -30,7 +30,12 @@ You can add as many bots as needed, keeping in mind the performance capabilities
 { name: 'Bot2', path: '/path/to/bot2' },
 { name: 'Bot3', path: '/path/to/bot3' }
 ```
+Next, locate and customize the code responsible for starting each bot. In the `start_bots.js` file, you will find the following snippet:
 
+```javascript
+exec(`cd ${bot.path} && node bot.js`, (error, stdout, stderr) => {
+```
+Make sure to adjust the node bot.js command according to how your Discord bot is started. If your bot runs differently (for example, with a different startup file or a specific command), modify this line accordingly
 
 
 ---
@@ -69,5 +74,9 @@ Puedes agregar tantos bots como necesites, teniendo en cuenta las capacidades y 
 { name: 'Bot2', path: '/ruta/al/bot2' },
 { name: 'Bot3', path: '/ruta/al/bot3' }
 ```
----
+A continuación, localiza y personaliza el código encargado de iniciar cada bot. En el archivo `start_bots.js`, encontrarás el siguiente fragmento:
 
+```javascript
+exec(`cd ${bot.path} && node bot.js`, (error, stdout, stderr) => {
+```
+Asegúrate de ajustar el comando node bot.js según la forma en que se inicia tu bot de Discord. Si tu bot se ejecuta de manera diferente (por ejemplo, con otro archivo de inicio o con un comando específico), modifica esta línea en consecuencia.
