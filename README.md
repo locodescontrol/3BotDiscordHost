@@ -1,4 +1,4 @@
-![Logo](https://cdn.discordapp.com/attachments/1370237112351457380/1371325637683318915/Flux_Dev_Create_a_visually_striking_logo_for_my_github_that_em_0.jpg?ex=6822ba06&is=68216886&hm=8662c699e440e530586ce82ef1c944fa492aa359f02bbfb0c139e9c0aacf6956&)
+![Logo](https://cdn.discordapp.com/attachments/1370237112351457380/1371327371508187206/1000207228-removebg-preview.png?ex=6822bba3&is=68216a23&hm=29b61d7dd0ed7a6237c353c0e9a82e9f3eb6adadfaa8557e86c8367f3de6141d&)
 
 # 🤖 3BotDiscordHost EN
 ---
