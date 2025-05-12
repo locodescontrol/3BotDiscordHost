@@ -33,7 +33,7 @@ Puedes agregar tantos bots como necesites, teniendo en cuenta las capacidades y 
 ```
 ---
 
-# 3BotDiscordHost Project
+# 3BotDiscordHost Project EN
 
 This project allows you to manage and run multiple Discord bots located in different paths using Node.js and a script to automate their startup.
 
