@@ -14,5 +14,4 @@ Este proyecto permite gestionar e iniciar varios bots de Discord que se encuentr
 Primero, clona el repositorio en tu máquina local:
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
-cd <nombre_del_repositorio>
+git clone https://github.com/locodescontrol/3BotDiscordHost.git
