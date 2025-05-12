@@ -1,13 +1,13 @@
 const { exec } = require('child_process');
 
-// Define las rutas de los bots
+// Define the routes of the bots
 const bots = [
   { name: 'Bot1', path: '/path/to/bot1' },
   { name: 'Bot2', path: '/ruta/al/bot2' },
   { name: 'Bot3', path: '/ruta/al/bot3' }
 ];
 
-// Iniciar cada bot en su ruta
+// Start each bot on its route
 bots.forEach(bot => {
   exec(`cd ${bot.path} && node bot.js`, (error, stdout, stderr) => {
     if (error) {
