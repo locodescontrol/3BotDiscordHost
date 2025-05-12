@@ -1,8 +1,56 @@
+# 🤖 3BotDiscordHost EN
+---
+
+**3BotDiscordHost** is a Node.js utility for running, monitoring, and automatically restarting multiple Discord bots. This script simplifies the centralized management of several bots from a single instance.
+
+
+## 🚀 What does this script do?
+
+- Automatically starts all configured bots.
+- Monitors their output in real-time and saves it to `.log` files.
+- Restarts bots if they crash (if `restartOnCrash` is enabled).
+- Applies custom environment variables per bot.
+- Stops all bots cleanly when the main process is closed.
+
+The configuration can be found in the `botsConfig` section within the `3BotDiscordHost.js` file. Each bot can have:
+
+```js
+{
+  name: 'MusicBot',              // Bot identifier name
+  path: './bots/music-bot',      // Relative path to the bot's folder
+  script: 'index.js',            // Main script to execute
+  restartOnCrash: true,          // Restart if it crashes
+  maxRestarts: 5,                // (Optional) Maximum allowed restarts
+  env: {                         // (Optional) Custom environment variables
+    NODE_ENV: 'production'
+  }
+}
+```
+### 🧠 Requirements
+- Node.js installed (version 14 or higher recommended).
+- Bots ready to run separately with Node.js.
+- Access to the terminal to start the manager.
+### 📦 Installation
+1. Clone or download this project.
+2. Make sure each bot has its script functioning and dependencies installed (npm install).
+3. Run 3BotDiscordHost:
+```bash
+node 3BotDiscordHost.js
+```
+### 📒 Notes
+-The .log files for each bot are saved in the logs/ folder.
+- If a bot reaches the maximum number of allowed restarts (maxRestarts), it will stop restarting automatically.
+
+### 📬 Contact
+Created by loco_descontrol
+
+
 # 🤖 3BotDiscordHost ES
+----
 
 **3BotDiscordHostr** es una utilidad en Node.js para ejecutar, supervisar y reiniciar múltiples bots de Discord automáticamente. Este script facilita el manejo centralizado de varios bots desde una sola instancia.
 
----
+
 
 ## 🚀 ¿Qué hace este script?
 
@@ -12,7 +60,7 @@
 - Aplica variables de entorno personalizadas por bot.
 - Detiene todos los bots de forma limpia cuando se cierra el proceso principal.
 
-La configuración se encuentra en el apartado  `botsConfig` dentro del archivo `start_bots.js`. Cada bot puede tener:
+La configuración se encuentra en el apartado  `botsConfig` dentro del archivo `3BotDiscordHost.js`. Cada bot puede tener:
 
 ```js
 {
@@ -32,7 +80,6 @@ La configuración se encuentra en el apartado  `botsConfig` dentro del archivo `
 - Bots listos para ejecutarse por separado con Node.js.
 - Acceso a la terminal para iniciar el gestor.
 
----
 ### 📦 Instalación
 1 Clona o descarga este proyecto.
 2 Asegúrate de que cada bot tenga su script funcional y sus dependencias instaladas (npm install).
@@ -46,6 +93,5 @@ node 3BotDiscordHost.js
 Los archivos .log de cada bot se guardan en la carpeta logs/.
 Si un bot alcanza el número máximo de reinicios permitidos (maxRestarts), dejará de reiniciarse automáticamente.
 
----
-📬 Contacto
+### 📬 Contacto
 Creado por loco_descontrol
