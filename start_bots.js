@@ -18,6 +18,6 @@ bots.forEach(bot => {
       console.error(`stderr: ${stderr}`);
       return;
     }
-    console.log(`${bot.name} iniciado: ${stdout}`);
+    console.log(`${bot.name} started: ${stdout}`);
   });
 });
