@@ -11,9 +11,11 @@ Implementación de múltiples bots de Discord en un solo servidor, permitiendo l
 
 ## Instalación
 
-### 1. Clona el repositorio
+### 1. Descarga el repositorio.
+### 2. Subelo a tu host y configuralo.
 
-Primero, clona el repositorio en tu máquina local:
+Primero, clona el repositorio y:
 
 ```bash
 git clone https://github.com/locodescontrol/3BotDiscordHost.git
+```
