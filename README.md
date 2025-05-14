@@ -45,9 +45,8 @@ node 3BotDiscordHost.js
 ### 📬 Contact
 Created by loco_descontrol
 
-
-# 🤖 3BotDiscordHost ES
 ----
+# 🤖 3BotDiscordHost ES
 
 **3BotDiscordHostr** es una utilidad en Node.js para ejecutar, supervisar y reiniciar múltiples bots de Discord automáticamente. Este script facilita el manejo centralizado de varios bots desde una sola instancia.
 
