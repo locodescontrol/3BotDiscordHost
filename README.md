@@ -1,7 +1,6 @@
 ![Logo](https://cdn.discordapp.com/attachments/1370237112351457380/1371327371508187206/1000207228-removebg-preview.png?ex=6824b5e3&is=68236463&hm=01e31a27385a3d53e436e54d0b164489856c88bc1cfdefaa28e6514195ef598f&)
 
 # 🤖 3BotDiscordHost EN
----
 
 **3BotDiscordHost** is a Node.js utility for running, monitoring, and automatically restarting multiple Discord bots. This script simplifies the centralized management of several bots from a single instance.
 
