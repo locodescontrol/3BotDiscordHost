@@ -1,4 +1,4 @@
-![Logo](https://cdn.discordapp.com/attachments/1370237112351457380/1371327371508187206/1000207228-removebg-preview.png?ex=6822bba3&is=68216a23&hm=29b61d7dd0ed7a6237c353c0e9a82e9f3eb6adadfaa8557e86c8367f3de6141d&)
+![Logo](https://cdn.discordapp.com/attachments/1370237112351457380/1371327371508187206/1000207228-removebg-preview.png?ex=6824b5e3&is=68236463&hm=01e31a27385a3d53e436e54d0b164489856c88bc1cfdefaa28e6514195ef598f&)
 
 # 🤖 3BotDiscordHost EN
 ---
