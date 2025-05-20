@@ -43,7 +43,7 @@ node 3BotDiscordHost.js
 - If a bot reaches the maximum number of allowed restarts (maxRestarts), it will stop restarting automatically.
 
 ### 📬 Contact
-Created by loco_descontrol
+Created by [loco_descontrol](https://discord.com/users/227210156365185024)
 
 ----
 # 🤖 3BotDiscordHost ES
