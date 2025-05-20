@@ -94,4 +94,4 @@ Los archivos .log de cada bot se guardan en la carpeta logs/.
 Si un bot alcanza el número máximo de reinicios permitidos (maxRestarts), dejará de reiniciarse automáticamente.
 
 ### 📬 Contacto
-Creado por loco_descontrol
+Creado por [loco_descontrol](https://discord.com/users/227210156365185024)
