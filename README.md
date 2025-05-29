@@ -1,4 +1,4 @@
-![3BotDiscordHost](https://cdn.discordapp.com/attachments/1370237112351457380/1371327371508187206/1000207228-removebg-preview.png?ex=682d47a3&is=682bf623&hm=52a05b2411132ced7fae51cb5b727c674178c53138bf5b7a488e8dc1ab7c264f&)
+![3BotDiscordHost](https://chrisdev.xyz/images/3BotDiscordHost.png)
 
 # 🤖 3BotDiscordHost EN
 
